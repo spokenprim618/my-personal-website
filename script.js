@@ -42,13 +42,13 @@ futureColor.style["color"]="yellow";
 
 function newimage(){
    
-    if(IMG.src== "http://127.0.0.1:5500/cool.jpg"){
+    if(IMG.src== "http://127.0.0.1:5500/images/cool.jpg"){
       IMG.src="http://127.0.0.1:5500/images/lol.png"; 
       lol= IMG.src;
       console.log(lol);
     }
     else{
-      IMG.src= "http://127.0.0.1:5500/cool.jpg"
+      IMG.src= "http://127.0.0.1:5500/images/cool.jpg"
       Lol= IMG.src;
       console.log(Lol);
     }
