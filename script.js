@@ -3,10 +3,6 @@ let colorButton = document.querySelector("#Color");
 let newIMGButton = document.querySelector("#newIMG");
  
 let mainpagecolor = document.querySelector(".mainPage");
-let text = document.querySelector("#text");
-let text2 = document.querySelector("#text2");
-let text3 = document.querySelector("#text3");
-let text4 = document.querySelector("#text4");
 let interestColor = document.querySelector("#interest");
 let futureColor = document.querySelector("#future");
 let artColor = document.querySelector("#art");
@@ -32,10 +28,11 @@ function newRGB() {
 //     coolor = [r,g,b];
 mainpagecolor.style["color"]="yellow";
 interestColor.style["color"]="yellow";
-text.style["color"]="yellow";
-text2.style["color"]="yellow";
-text3.style["color"]="yellow";
-text4.style["color"]="yellow";
+var x, i;
+x = document.querySelectorAll(".toolbar>a");
+for (i = 0; i < x.length; i++) {
+  x[i].style.color = "red";
+}
 artColor.style["color"]="yellow";
 futureColor.style["color"]="yellow";
 };

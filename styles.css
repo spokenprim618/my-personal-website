@@ -4,22 +4,11 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#text:hover{
+a:hover{
      color: gray;
      opacity:0.5; 
  }
-#text2:hover{
-     color: gray;
-     opacity:0.5; 
- }
-#text3:hover{
-     color: gray;
-     opacity:0.5; 
- }
-#text4:hover{
-     color: gray;
-     opacity:0.5; 
- }
+ 
 #art:hover{
      color: gray;
      opacity:0.5; 
@@ -29,53 +18,35 @@ a{
      text-align: center;
      text-decoration: none;
  }
-.toolbar{
+.toolbar,.toolbar>a{
     background-color: rgb(54, 50, 50);
     display:flex;
     align-content: center;
     justify-content:space-around;
+    color:white;
+    font-size: 20px;
  }
-#text{
-    color:white;
-    font-size: 20px;
-}
-#text2{
-    color:white;
-    font-size: 20px;
-}
-#text3{
-    color:white;
-    font-size: 20px;
-}
-#text4{
-    color:white;
-    font-size: 20px;
-}
+
 .headers{
     display:flex;
     line-height: 150px;
     font-size: 15px;
+    flex-wrap: wrap;
     justify-content:space-around;
 }
 #interest{
     border: 3px solid black;
-    display: flex;
-    flex-wrap: wrap;
     color:black;
     width:345px;
     transform: translateX(80px);
 }
 #art{
-    border: 5px solid white;
-    display: flex;
-    flex-wrap: wrap;
+    border: 5px solid white; 
     transform: translateX(280px);
     color:rgb(255,255,255);
 }
 #future{
     border: 5px solid rgb(152, 194, 228);
-    display: flex;
-    flex-wrap: wrap;
     width:345px;
     transform: translateX(180px);
     color:rgb(152, 194, 228);
